@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: "Montserrat", sans-serif;
+}
+.contenedor{
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+.card{
+  width: 320px;
+  background-color: #f2f2f2;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 8px;
+  border: solid 0.5px #cbc3c3;
+  display: inline-block;
+}
+.card img{
+  display: block;
+  max-height: 280px;
+  margin: 16px auto;
+  filter: drop-shadow(2px 0px 8px #515151);
+}
+.card h2{
+  margin-top: 2px;
+  margin-bottom: 8px;
+  color: #373737;
+  text-align: center;
+}
+.card p{
+  font-size: 16px;
+  color: #515151;
+  text-align: center;
+}
+
+.punto1hexadecimal {
+  background-color: #4fec4a;
+  border: 2 px solid #0000;
+  color: #515151;
+}
+.punto1RGB {
+  background-color: rgb(255, 204, 204);
+  border: 2px solid rgb(255, 0, 0);
+  color: rgb(102, 0, 0);
+}
+.punto2RGB {
+  background-color: rgb(90, 175, 154);
+  border: 2px solid rgb(0, 153, 0);
+  color: rgb(0, 51, 0);
+}
+
+.punto3RGB {
+  background-color: rgb(30, 235, 235);
+  border: 2px solid rgb(0, 102, 204);
+  color: rgb(17, 49, 78);
+}
+
+.punto4RGB {
+  background-color: rgb(211, 66, 211);
+  border: 2px solid rgb(202, 60, 60);
+  color: rgb(121, 5, 115);
+}
+
+.punto5RGB {
+  background-color: rgb(0, 219, 248);
+  border: 2px solid rgb(16, 73, 75);
+  color: rgb(6, 58, 71);
+}
+
+.gallery {
+  background-color: rgb(107, 218, 212);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+body {
+  background: url("goku.jpg") no-repeat center center fixed;
+  background-size: cover;
+  margin: 0;
+  padding: 20px;
+}
+
+.punto8gradiente {
+  width: 250px;
+  padding: 20px;
+  border-radius: 12px;
+  color: white;
+  background: linear-gradient(180deg, #2cff02, #699969);
+}
+
+.punto9radial {
+  width: 250px;
+  padding: 20px;
+  border-radius: 12px;
+  color: white;
+  text-align: center;
+  background: radial-gradient(circle, #43cea2, #185a9d);
+}
+ .punto10p_estilos {
+  width: 250px;
+  padding: 20px;
+  border-radius: 12px;
+  background: linear-gradient(180deg, #ff9a9e, #fad0ca); 
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 5);
+ }
+
+ .punto11-fuente {
+  width: 250px;
+  padding: 20px;
+  border-radius: 12px;
+  background: radial-gradient(circle, #ffdde1, #ee9ca7);
+  color: #333;
+  font-family: "montserrat", sans-serif;
+ }
+
+ .punto12-tamanoyestilo {
+  font-size: 28px;
+  font-style: italic;
+  font-weight: 700;
+  color: #333;
+ }
+
+ .punto13-rem p {
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+  color: #2c3e50;
+ }
+
+ .punto14-em {
+  margin: 2em;
+  padding: 1.5em;
+  background-color: #e8f5e9;
+  border: 2px solid #2e7d32;
+ }
+ .punto14-em h2 {
+  font-size: 1.5em;
+  color: #1b5e20;
+ }
+
+
+ .punto15-comparacion {
+  background-color: #7fd66e;
+  border: 2px solid #046301;
+  margin: 20px;
+  padding: 2em;
+ }
+ .punto15-comparacion h2 {
+  font-size: 2rem;
+  color: #43cea2;
+ }
+ .punto15-comparacion p {
+  font-size: 16px;
+  line-height: 1.5em;
+ }
+
+ /*comparacion entre px, em y rem
+
+ -px: medida fija,siempre igual en pantalla
+ -em: relativa al tamaño de fuente del elemento padre
+ -rem: relativa al tamaño de fuente del elemento raiz
+
+ en esta carta se usann las tres unidades para ver su comportamiento:}
+
+ -margin en px
+ -padding en em 
+ -font-size en rem
+*/
+
+.gallery {
+  width: 90vw;
+  height: 80vw;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: #2cff02;
+  border: 3px solid #333;
+}
+
+.punto17-insertarcard {
+  width: 320px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.punto18-contenidovisual {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
