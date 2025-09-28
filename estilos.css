@@ -1,18 +1,25 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 
-*{
+* {
   margin: 0;
   padding: 0;
 }
-body{
+body {
   font-family: "Montserrat", sans-serif;
 }
-.contenedor{
+
+body {
+  background-image: url("lionel-messi_1.jpg");
+  background-size: 500px;
+  background-position: top left;
+  background-repeat: no-repeat;
+}
+.contenedor {
   max-width: 1200px;
   margin: 0 auto;
   margin-top: 40px;
 }
-.card{
+.card {
   width: 320px;
   background-color: #f2f2f2;
   padding: 10px;
@@ -21,19 +28,19 @@ body{
   border: solid 0.5px #cbc3c3;
   display: inline-block;
 }
-.card img{
+.card img {
   display: block;
   max-height: 280px;
   margin: 16px auto;
   filter: drop-shadow(2px 0px 8px #515151);
 }
-.card h2{
+.card h2 {
   margin-top: 2px;
   margin-bottom: 8px;
   color: #373737;
   text-align: center;
 }
-.card p{
+.card p {
   font-size: 16px;
   color: #515151;
   text-align: center;
@@ -102,68 +109,67 @@ body {
   text-align: center;
   background: radial-gradient(circle, #43cea2, #185a9d);
 }
- .punto10p_estilos {
+.punto10p_estilos {
   width: 250px;
   padding: 20px;
   border-radius: 12px;
-  background: linear-gradient(180deg, #ff9a9e, #fad0ca); 
+  background: linear-gradient(180deg, #ff9a9e, #fad0ca);
   color: white;
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 2px;
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 5);
- }
+}
 
- .punto11-fuente {
+.punto11-fuente {
   width: 250px;
   padding: 20px;
   border-radius: 12px;
   background: radial-gradient(circle, #ffdde1, #ee9ca7);
   color: #333;
   font-family: "montserrat", sans-serif;
- }
+}
 
- .punto12-tamanoyestilo {
+.punto12-tamanoyestilo {
   font-size: 28px;
   font-style: italic;
   font-weight: 700;
   color: #333;
- }
+}
 
- .punto13-rem p {
+.punto13-rem p {
   font-size: 1.2rem;
   line-height: 1.8rem;
   color: #2c3e50;
- }
+}
 
- .punto14-em {
+.punto14-em {
   margin: 2em;
   padding: 1.5em;
   background-color: #e8f5e9;
   border: 2px solid #2e7d32;
- }
- .punto14-em h2 {
+}
+.punto14-em h2 {
   font-size: 1.5em;
   color: #1b5e20;
- }
+}
 
-
- .punto15-comparacion {
+.punto15-comparacion {
   background-color: #7fd66e;
   border: 2px solid #046301;
   margin: 20px;
   padding: 2em;
- }
- .punto15-comparacion h2 {
+}
+.punto15-comparacion h2 {
   font-size: 2rem;
   color: #43cea2;
- }
- .punto15-comparacion p {
+}
+.punto15-comparacion p {
   font-size: 16px;
   line-height: 1.5em;
- }
+}
 
- /*comparacion entre px, em y rem
+/*comparacion entre px, em y rem
 
  -px: medida fija,siempre igual en pantalla
  -em: relativa al tamaño de fuente del elemento padre
@@ -180,7 +186,6 @@ body {
   width: 90vw;
   height: 80vw;
   margin: 0 auto;
-  display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
@@ -196,8 +201,7 @@ body {
 
 .punto18-contenidovisual {
   width: 100%;
-  height: 200px;
+  height: 100px;
   object-fit: cover;
-  border-radius: 10px;
+  border-radius: 5px;
 }
-
